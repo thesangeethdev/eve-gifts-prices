@@ -1,0 +1,120 @@
+{
+  "frames": {
+    "glass": {
+      "4x6": 750,
+      "5x7": 950,
+      "6x8": 1100,
+      "8x10": 1650,
+      "8x12": 2000,
+      "10x12": 2100,
+      "10x15": 3000,
+      "12x15": 3300,
+      "12x16": null,
+      "12x18": 3500,
+      "12x24": 4000,
+      "12x30": 4600,
+      "12x36": 5500,
+      "16x24": 8000,
+      "18x24": 8600,
+      "24x36": 15000,
+      "18x24_signage": 9000
+    },
+    "duro": {
+      "4x6": 500,
+      "5x7": 650,
+      "6x8": 900,
+      "8x10": 1400,
+      "8x12": 2000,
+      "10x12": 2300,
+      "10x15": 2800,
+      "12x15": 2950,
+      "12x16": null,
+      "12x18": 3000,
+      "12x24": 3500,
+      "12x30": 3800,
+      "12x36": 4500,
+      "16x24": 7000,
+      "18x24": 7500,
+      "24x36": 14000,
+      "18x24_signage": null
+    },
+    "eye": {
+      "4x4": 800,
+      "6x6": 1200,
+      "8x8": 1500,
+      "10x10": 1700,
+      "12x12": 2600
+    }
+  },
+  "cakes": {
+    "butter_cake": {
+      "unit": "1kg",
+      "price": 1300
+    },
+    "chocolate_cake": {
+      "unit": "1kg",
+      "price": 1500
+    },
+    "birthday_cake": {
+      "butter": {
+        "price": 5500,
+        "includes": [
+          "knife",
+          "birthday handle",
+          "birthday topper"
+        ]
+      },
+      "chocolate": {
+        "price": 6000,
+        "includes": [
+          "knife",
+          "birthday handle",
+          "birthday topper"
+        ]
+      }
+    },
+    "butter_cup_cake": {
+      "unit": "per_piece",
+      "price": 200
+    },
+    "chocolate_cup_cake": {
+      "unit": "per_piece",
+      "price": 250
+    },
+    "marble_cake": {
+      "unit": "1kg",
+      "price": 1500
+    },
+    "ribbon_cake": {
+      "unit": "1kg",
+      "price": 1400
+    }
+  },
+  "gifts": {
+    "customized_bouquet": {
+      "price": 3500
+    },
+    "personalized_clock": {
+      "price": 2500
+    },
+    "wall_photo_collage": {
+      "pricing": "frame_based",
+      "frame_types": [
+        "glass",
+        "duro",
+        "eye"
+      ],
+      "formula": "price = selected_frame_price"
+    },
+    "baby_photo_collage": {
+      "price": 5000
+    },
+    "customized_chocolate": {
+      "unit": "per_piece",
+      "price": 250
+    },
+    "spotify_frame": {
+      "price": 3500
+    }
+  }
+}
